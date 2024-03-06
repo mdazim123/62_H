@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;padding: 0;margin: 0;transition: 1s all ease;
+}
+body
+{
+    background:(to right, rgba(0, 0, 10, .9), rgba(10, 0, 0, .7)), url('banner.jpg') no-repeat fixed center;
+	background-size:cover;
+}
+span
+{
+    color: green;background-color: white;
+    padding: .1em;
+}
+#courseName
+{
+    position: fixed;width: 20%;height: 100vh;
+    background-color:rgba(0, 0, 0, .3);
+}
+a{
+    width: 7em;display: flex;flex-direction: column;
+    text-decoration: none;padding: .2em;background-color: rgba(20, 60, 60, .5);
+    color:white;text-align: center;margin: 0em .3em .8em 0em;position: relative;
+    top: 8em;left: 20%;border-radius:2em;
+}
+a:hover
+{
+    border-radius:.4em;color: black;cursor: pointer;background-color: aliceblue;
+}
+#QstnStudnt
+{color: white;background-color: rgba(100, 100, 100, 0.8);}
+#courseTitle{text-align: center;}
+.coursInfo
+{
+    width: 75%;height: 100vh;padding: 2em;color: white;
+    background-color:rgba(70, 70, 90, .7);display: flex;float: right;position: relative;
+    top: 2em;flex-direction: column;justify-content: space-between;  
+    right: 2em;border-radius: 2em;
+}
+.QAPMF{
+    display: flex;flex-direction: row;justify-content: space-around;
+    height: 40vh;
+    
+}
+
+#ALcoursInfo,#NMcoursInfo,#ALcoursInfo,#SPIIcoursInfo,#ECOcoursInfo,#CAOcoursInfo
+{
+    margin-top: 3em;
+}
+#quiz, #quizSylabus,#ass1 ,#topic,#Mid,#pressent
+{margin-bottom: .4em;}
+hr{margin: 1em;}
